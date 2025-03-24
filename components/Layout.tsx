@@ -10,7 +10,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div>
       <Navbar />
-      <main>
+      <main className='mt-8'>
         {children}
       </main>
       <Footer />
