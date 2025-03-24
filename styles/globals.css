@@ -1,2 +1,13 @@
 @import "tailwindcss";
 
+@theme {
+    --color-background: #FDFAF6;
+    --color-normal-sage: #E4EFE7;
+    --color-normal-green: #99BC85;
+    --color-dark-green: #064616;
+    --color-normal-beige: #FAF1E6;
+}
+
+html {
+    background-color: var(--color-background) ;
+}
