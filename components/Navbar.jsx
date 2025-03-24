@@ -3,12 +3,12 @@ import { FaYoutube, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className="bg-normal-beige text-neutral-800 p-4">
+    <nav className="bg-background border-b border-neutral-200 text-neutral-800 p-4">
       <div className="container mx-auto flex justify-between items-center">
 
         {/* Logo */}
         <div>
-            <img src="Logos/cibik.png" alt="logoForNavbar" className="w-16" />
+            <img src="Logos/ertech.png" alt="logoForNavbar" className="w-16" />
         </div>
 
         {/* Links */}
