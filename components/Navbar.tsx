@@ -15,19 +15,19 @@ const Navbar = () => {
         <ul className="flex space-x-6">
 
           <li>
-            <a href="#" className="hover:text-dark-green transition-all">Ana Sayfa</a>
+            <a href="/" className="hover:text-dark-green transition-all">Ana Sayfa</a>
           </li>
 
           <li>
-            <a href="#" className="hover:text-dark-green transition-all">Hakkımızda</a>
+            <a href="/hakkimizda" className="hover:text-dark-green transition-all">Hakkımızda</a>
           </li>
 
           <li>
-            <a href="#" className="hover:text-dark-green transition-all">Projelerimiz</a>
+            <a href="/projelerimiz" className="hover:text-dark-green transition-all">Projelerimiz</a>
           </li>
 
           <li>
-            <a href="#" className="hover:text-dark-green transition-all">İletişim</a>
+            <a href="/iletisim" className="hover:text-dark-green transition-all">İletişim</a>
           </li>
 
         </ul>

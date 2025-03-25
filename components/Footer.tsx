@@ -17,10 +17,10 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-lg mb-4">Hızlı Linkler</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-dark-green transition-all">Ana Sayfa</a></li>
-              <li><a href="#" className="hover:text-dark-green transition-all">Hakkımızda</a></li>
-              <li><a href="#" className="hover:text-dark-green transition-all">Projeler</a></li>
-              <li><a href="#" className="hover:text-dark-green transition-all">İletişim</a></li>
+              <li><a href="/" className="hover:text-dark-green transition-all">Ana Sayfa</a></li>
+              <li><a href="/hakkimizda" className="hover:text-dark-green transition-all">Hakkımızda</a></li>
+              <li><a href="/projelerimiz" className="hover:text-dark-green transition-all">Projeler</a></li>
+              <li><a href="/iletisim" className="hover:text-dark-green transition-all">İletişim</a></li>
             </ul>
           </div>
           
