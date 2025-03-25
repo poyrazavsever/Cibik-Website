@@ -8,7 +8,7 @@ const References = () => {
 
         <div className='flex flex-col items-start gap-3'>
           <h2 className='text-2xl font-semibold text-dark-green'>Değerli Danışmanlarımız</h2>
-          <p className='text-neutral-700'>Ürünlerimizi keşfedin ve doğa dostu çözümlerimizle tanışın!</p>
+          <p className='text-neutral-700'>Danışmanlarımızla bu yolda daha sağlam ilerliyoruz!</p>
         </div>
 
         <div className='w-full flex flex-wrap gap-12 items-start justify-start'>
