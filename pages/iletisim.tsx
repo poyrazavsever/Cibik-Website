@@ -1,13 +1,20 @@
 import React, { useState } from 'react';
+import { FaInstagram, FaLinkedin, FaYoutube, FaPhone, FaMailBulk } from 'react-icons/fa'; // React Icons'dan gerekli ikonlar
 
-const Iletisim = () => {
-  const [formData, setFormData] = useState({
+interface FormData {
+  name: string;
+  email: string;
+  message: string;
+}
+
+const Iletisim: React.FC = () => {
+  const [formData, setFormData] = useState<FormData>({
     name: '',
     email: '',
     message: ''
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
       ...prevData,
@@ -15,7 +22,7 @@ const Iletisim = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     alert('Mesajınız gönderildi!');
     // Burada form verilerini backend'e göndermek için gerekli kodu yazabilirsiniz.
@@ -71,7 +78,7 @@ const Iletisim = () => {
                 value={formData.message}
                 onChange={handleChange}
                 className="w-full p-4 mt-2 border border-neutral-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-dark-green"
-                rows="4"
+                rows={4}
                 placeholder="Mesajınızı buraya yazın"
                 required
               />
@@ -93,18 +100,49 @@ const Iletisim = () => {
             Bizimle şu şekilde iletişime geçebilirsiniz:
           </p>
 
-          <div className="space-y-4">
+          <div className="flex flex-col items-start gap-6 mt-8">
             <div className="flex items-center">
-              <span className="text-dark-green mr-4">📧</span>
+              <span className="mr-4">
+              <FaMailBulk className='text-neutral-900'/>
+              </span>
               <a href="mailto:info@yourcompany.com" className="text-lg text-dark-green hover:underline">
                 info@ertech.com
               </a>
             </div>
 
             <div className="flex items-center">
-              <span className="text-dark-green mr-4">📞</span>
+              <span className="mr-4">
+                <FaPhone className='text-neutral-900'/>
+              </span>
               <a href="tel:+1234567890" className="text-lg text-dark-green hover:underline">
                 +90 (234) 567-890
+              </a>
+            </div>
+
+            <div className="flex items-center">
+              <span className="mr-4">
+                <FaInstagram className='text-neutral-900'/>
+              </span>
+              <a href="https://www.instagram.com/p.avsever" target="_blank" rel="noopener noreferrer" className="text-lg text-dark-green hover:underline">
+              @ertech
+              </a>
+            </div>
+
+            <div className="flex items-center">
+              <span className="mr-4">
+                <FaLinkedin className='text-neutral-900'/>
+              </span>
+              <a href="https://www.linkedin.com/in/poyrazavsever" target="_blank" rel="noopener noreferrer" className="text-lg text-dark-green hover:underline">
+              @ertech
+              </a>
+            </div>
+
+            <div className="flex items-center">
+              <span className="mr-4">
+                <FaYoutube className='text-neutral-900' />
+              </span>
+              <a href="https://www.youtube.com/c/poyrazavsever" target="_blank" rel="noopener noreferrer" className="text-lg text-dark-green hover:underline">
+                @ertech
               </a>
             </div>
 
