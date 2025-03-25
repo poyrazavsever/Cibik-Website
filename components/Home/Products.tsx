@@ -1,11 +1,13 @@
-import React from 'react'
-import ProductCard from '../ProductCard'
+import React from 'react';
+import ProductCard from '../ProductCard';
 
 const Products = () => {
   return (
-    <div className='container mx-auto my-48'>
+    <div className='relative py-36'>
+      {/* Arka Plan Deseni */}
+      <div className='absolute inset-0 bg-patterns -z-10 w-full'></div>
 
-      <div className='flex flex-col items-center gap-12'>
+      <div className='flex flex-col items-center gap-12  z-10 container mx-auto'>
 
         <div className='flex flex-col items-center gap-3'>
           <h2 className='text-2xl font-semibold text-dark-green'>Ürünlerimiz</h2>
@@ -17,10 +19,8 @@ const Products = () => {
         </div>
 
       </div>
-
-
     </div>
-  )
+  );
 }
 
-export default Products
+export default Products;

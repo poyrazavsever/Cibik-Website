@@ -8,7 +8,7 @@ interface CardProps {
 
 const ProductCard: React.FC<CardProps> = ({linkUrl, imageUrl, productName}) => {
   return (
-    <div className="border border-neutral-200 py-6 px-12 rounded-lg w-80 flex flex-col items-center gap-4">
+    <div className="bg-background border border-neutral-200 py-6 px-12 rounded-lg w-80 flex flex-col items-center gap-4">
       {/* Logo */}
       <div className="flex justify-start mb-4">
         <img src={imageUrl} alt="Product Logo" className="w-full object-contain" />
