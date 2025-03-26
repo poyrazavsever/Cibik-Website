@@ -23,7 +23,7 @@ const Cibik: React.FC = () => {
           { title: "Akıllı Cihaz: Çıbık", desc: "Teknoloji ve doğanın birleşimi…", img: "akıllıcihaz.jpeg", link:"akillicihaz"},
           { title: "Mobil Uygulaması", desc: "Bitkilerinizi tek tıkla yönetin!", img: "mobiluygulama.jpeg", link:"mobiluygulama"},
           { title: "Eğlenceli İçerikler!", desc: "Eğlenirken öğrenin!", img: "eglenceliicerikler.jpeg", link:"eglenceli-icerikler" },
-          { title: "Tarım Malzemeleri", desc: "Ara ürün satışlarımız!", img: "tarımmalzemeleri.jpeg" },
+          { title: "Tarım Malzemeleri", desc: "Ara ürün satışlarımız!", img: "tarımmalzemeleri.jpeg", link:"tarim-malzemeleri" },
         ].map((card, index) => (
           <div key={index} className="border border-neutral-200 p-4 rounded-lg flex flex-col items-center">
             <img src={`Images/${card.img}`} alt={card.title} className="w-full max-h-96 object-cover rounded-sm mb-4" />
