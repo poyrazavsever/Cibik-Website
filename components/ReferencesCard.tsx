@@ -7,7 +7,7 @@ interface ReferencesCardProps {
 
 const ReferencesCard: React.FC<ReferencesCardProps> = ({ logoUrl, name }) => {
   return (
-    <div className="bg-white border border-neutral-100 rounded-md flex items-center justify-center w-full max-w-md">
+    <div className="bg-white border border-neutral-100 rounded-md flex items-center justify-start w-full max-w-md">
       {/* Logo */}
       <div className="flex-shrink-0">
         <img src={logoUrl} alt="Logo" className="w-36 object-contain py-2" />
