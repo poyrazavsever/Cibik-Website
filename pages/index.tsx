@@ -8,9 +8,7 @@ export default function Home() {
     <div>
 
       <HeroSection />
-
-      <About />
-
+      
       <Products />
 
       <References />

@@ -11,8 +11,12 @@ const Projects = () => {
       </div>
 
       {/* Responsive Grid Layout */}
-      <div className='mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
-        <ProductCard imageUrl='Logos/cibik.png' productName='Çıbık' linkUrl='cibik'/>
+      <div className='mt-12'>
+        <ProductCard imageUrl='Logos/cibik.png' productName='Çıbık' linkUrl='cibik' productDetail='Projemiz, iç mekân bitki yetiştiriciliğini kolaylaştırmak ve daha verimli hale getirmek için bir cihaz ve mobil uygulama geliştirmiştir. ' thumbnails={[
+            'Images/image.png',
+            'Images/image.png',
+            'Images/image.png',
+          ]}/>
         {/* Yeni projeler eklenirse buraya eklenebilir */}
       </div>
 
