@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
         <ul
           className={`absolute !z-50 md:static top-16 left-0 w-full md:w-auto bg-background md:flex md:space-x-6 
                       md:items-center md:p-0 p-6 transition-all duration-300 
-                      ${menuOpen ? "block" : "hidden"}`}
+                      ${menuOpen ? "block border-b border-neutral-400" : "hidden"}`}
         >
           <li>
             <a href="/" className="block md:inline hover:text-dark-green transition-all p-2">Ana Sayfa</a>
