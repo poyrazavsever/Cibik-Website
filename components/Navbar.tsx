@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
 
         {/* Links */}
         <ul
-          className={`absolute border-b border-neutral-400 !z-50 md:static top-16 left-0 w-full md:w-auto bg-background md:flex md:space-x-6 
+          className={`absolute !z-50 md:static top-16 left-0 w-full md:w-auto bg-background md:flex md:space-x-6 
                       md:items-center md:p-0 p-6 transition-all duration-300 
                       ${menuOpen ? "block" : "hidden"}`}
         >
