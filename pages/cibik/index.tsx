@@ -5,7 +5,7 @@ import { GiPlantSeed } from "react-icons/gi";
 
 const Cibik: React.FC = () => {
   return (
-    <div className="flex flex-col items-center p-6 max-w-5xl mx-auto my-16">
+    <div className="flex flex-col items-center p-6 max-w-5xl mx-auto my-8 md:my-16">
 
       {/* Üst Kısım */}
      
@@ -54,6 +54,54 @@ const Cibik: React.FC = () => {
           </div>
         ))}
       </div>
+
+      {/* Fotoğraf Galerisi */}
+      <div className="mt-12 w-full flex flex-col gap-6">
+        {/* İlk Satır */}
+        <div className="flex flex-col sm:flex-row justify-starts gap-6 w-full">
+          {/* Dikey (1. fotoğraf) */}
+          <div className="h-auto md:h-96 overflow-hidden">
+            <img
+              src="Images/image.png"
+              alt="Galeri 1"
+              className="w-full h-full object-fill"
+            />
+          </div>
+
+          {/* Yatay (2. fotoğraf) */}
+          <div className="h-auto md:h-96 overflow-hidden">
+            <img
+              src="Images/image2.png"
+              alt="Galeri 2"
+              className="w-full h-full object-fill"
+            />
+          </div>
+        </div>
+
+        {/* İkinci Satır */}
+        <div className="flex flex-col sm:flex-row justify-start gap-6 w-full">
+          {/* Yatay (3. fotoğraf) */}
+          <div className="h-auto md:h-96overflow-hidden">
+            <img
+              src="Images/image3.png"
+              alt="Galeri 3"
+              className="w-full h-full object-fill"
+            />
+          </div>
+
+          {/* Dikey (4. fotoğraf) */}
+          <div className="h-auto md:h-96 overflow-hidden">
+            <img
+              src="Images/image4.png"
+              alt="Galeri 4"
+              className="w-full h-full object-fill"
+            />
+          </div>
+        </div>
+
+      </div>
+
+
 
     </div>
   );
