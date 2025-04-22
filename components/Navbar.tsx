@@ -39,13 +39,10 @@ const Navbar: React.FC = () => {
 
         {/* Sosyal Medya */}
         <div className="hidden md:flex space-x-4">
-          <a href="#" className="text-xl hover:text-red-600 transition-all">
-            <FaYoutube />
-          </a>
-          <a href="#" className="text-xl hover:text-pink-600 transition-all">
+          <a href="https://www.instagram.com/ertech_net/" target="_blank" className="text-xl hover:text-pink-600 transition-all">
             <FaInstagram />
           </a>
-          <a href="#" className="text-xl hover:text-blue-600 transition-all">
+          <a href="https://www.linkedin.com/company/ertech1" target="_blank" className="text-xl hover:text-blue-600 transition-all">
             <FaLinkedin />
           </a>
         </div>

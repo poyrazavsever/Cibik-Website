@@ -18,6 +18,8 @@ const References = () => {
         <ReferencesCard logoUrl='Logos/ostimtechtto.jpeg' name='Ostimtech TTO' />
         <ReferencesCard logoUrl='Logos/smartnet.jpeg' name='Smart Net' />
         <ReferencesCard logoUrl='Logos/viveka.jpeg' name='Viveka' />
+        <ReferencesCard logoUrl='Logos/konya.jpeg' name='Viveka' />
+        <ReferencesCard logoUrl='Logos/fablab.jpeg' name='Fark Labs' />
       </div>
 
     </div>

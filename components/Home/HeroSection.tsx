@@ -24,15 +24,13 @@ const HeroSection = () => {
         <h2 className="text-2xl md:text-3xl font-semibold text-neutral-900 mb-4">
           Bizi <span className="text-dark-green">Keşfet</span>
         </h2>
-        <p className="text-sm md:text-base text-neutral-700 mb-4">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dicta modi non dolore eveniet? Veniam vel, ducimus eligendi magnam, dicta aperiam ad hic quis suscipit consequatur officiis expedita? Repudiandae unde aliquam quas rerum saepe voluptatibus.
+        <p className="text-sm md:text-base text-neutral-700 mb-8">
+        Çıbık, şehirde yaşayan bireyler ve çocuklar için doğayla yeniden bağ kurmanın teknolojik yoludur. Akıllı sensörlerle donatılmış cihazımız ve yapay zeka destekli mobil uygulamamız sayesinde bitki bakımını kolay, keyifli ve verimli hale getiriyoruz. STEM odaklı eğitim kitimizle çocuklara doğa sevgisi, sorumluluk bilinci ve sürdürülebilir yaşam alışkanlıkları kazandırıyoruz.
+        Bitki yetiştiriciliğini herkes için erişilebilir kılan bu sistemi şimdi keşfedin.
         </p>
-        <p className="text-sm md:text-base text-neutral-700 mb-6">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dicta modi non dolore eveniet? Veniam vel, ducimus eligendi magnam, dicta aperiam ad hic quis suscipit consequatur officiis expedita? Repudiandae unde aliquam quas rerum saepe voluptatibus.
-        </p>
-        <button className="bg-dark-green hover:-translate-y-1 transition-all text-white font-medium py-3 px-6 rounded cursor-pointer">
+        <a href='/hakkimizda' className="bg-dark-green hover:-translate-y-1 transition-all text-white font-medium py-3 px-6 rounded cursor-pointer">
           Keşfet
-        </button>
+        </a>
       </div>
     </div>
   );

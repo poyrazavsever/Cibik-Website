@@ -33,9 +33,7 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-lg mb-4">Projeler</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-dark-green transition-all">Proje 1</a></li>
-              <li><a href="#" className="hover:text-dark-green transition-all">Proje 2</a></li>
-              <li><a href="#" className="hover:text-dark-green transition-all">Proje 3</a></li>
+              <li><a href="/cibik" className="hover:text-dark-green transition-all">Çıbık</a></li>
             </ul>
           </div>
           
@@ -46,16 +44,8 @@ const Footer = () => {
               <motion.a 
                 initial={{ opacity: 0 }} 
                 animate={{ opacity: 1 }} 
-                transition={{ duration: 0.5, delay: 0.2 }}
-                href="#" className="flex items-center space-x-2 hover:text-red-600 transition-all"
-              >
-                <FaYoutube /> <span>Youtube</span>
-              </motion.a>
-              <motion.a 
-                initial={{ opacity: 0 }} 
-                animate={{ opacity: 1 }} 
                 transition={{ duration: 0.5, delay: 0.3 }}
-                href="#" className="flex items-center space-x-2 hover:text-pink-600 transition-all"
+                href="https://www.instagram.com/ertech_net/" target="_blank" className="flex items-center space-x-2 hover:text-pink-600 transition-all"
               >
                 <FaInstagram /> <span>Instagram</span>
               </motion.a>
@@ -63,7 +53,7 @@ const Footer = () => {
                 initial={{ opacity: 0 }} 
                 animate={{ opacity: 1 }} 
                 transition={{ duration: 0.5, delay: 0.4 }}
-                href="#" className="flex items-center space-x-2 hover:text-blue-600 transition-all"
+                href="https://www.linkedin.com/company/ertech1" target="_blank" className="flex items-center space-x-2 hover:text-blue-600 transition-all"
               >
                 <FaLinkedin /> <span>LinkedIn</span>
               </motion.a>
